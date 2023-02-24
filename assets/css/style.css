@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Forum&family=Work+Sans&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -12,11 +13,12 @@ body {
 }
 
 /* Headings and logo */
-h1, h2 {
+h1,
+h2 {
     font-family: 'Forum', cursive;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color:#252525;
+    color: #252525;
 }
 
 #logo {
@@ -27,4 +29,25 @@ h1, h2 {
 li {
     float: right;
     list-style: none;
+}
+
+/*main image */
+
+#main-image {
+    height: 10rem;
+}
+
+/* social media */
+
+#social-media-links {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+
+}
+
+#social-media-links>li {
+    padding: 20px;
+
 }
