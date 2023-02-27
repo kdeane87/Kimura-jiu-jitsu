@@ -72,7 +72,7 @@ li {
 /* description */
 
 #description {
-    
+    float: left;
 }
 
 /* social media */
