@@ -101,3 +101,18 @@ li {
     padding: 20px;
 
 }
+
+/* Class schedule */
+
+table{
+    width:100%;
+    border-style:solid;
+    text-align: center;
+    font-family: inherit;
+    border-width: 2px;
+}
+
+td {
+    border-style:solid;
+    border-width: 2px;
+}
