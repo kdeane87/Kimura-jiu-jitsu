@@ -13,17 +13,41 @@ header {
     background-color: #252525;
 }
 
-#nav-links,
+
 #logo {
     line-height: 75px;
 }
 
-  #nav-links {
-    float: left;
-    display: block;
+#nav-links {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+  button {
+    background-color: chartreuse;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
   }
 
-.active {
+  button a {
+    text-decoration: none;
+    color: inherit;
+  }
+  button a:hover {
+   background-color: red; 
+   opacity: 0.6;
+  }
+
+    .active {
     border-bottom: 1px solid #3a3a3a;
 
 }
