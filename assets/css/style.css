@@ -166,3 +166,19 @@ td {
 #days {
     color: antiquewhite;
 }
+
+/* Trial class form */
+
+
+   
+
+
+form{
+    height: 500px;
+    width: 20%;
+    background-color: red;
+    float: right;
+    margin:5%;
+    text-align: right;
+}
+
