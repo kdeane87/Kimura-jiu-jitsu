@@ -174,11 +174,21 @@ td {
 
 
 form{
-    height: 500px;
-    width: 20%;
-    background-color: red;
-    float: right;
-    margin:5%;
-    text-align: right;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 600px;
+    width: 400px;
 }
+
+.row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  
 
