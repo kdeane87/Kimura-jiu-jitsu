@@ -24,30 +24,31 @@ header {
     margin-right: 30px;
 }
 
-  button {
+button {
     background-color: chartreuse;
-  border: none;
-  border-radius: 12px;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  }
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
 
-  button a {
+button a {
     text-decoration: none;
     color: inherit;
-  }
-  button a:hover {
-   background-color: red; 
-   opacity: 0.6;
-  }
+}
 
-    .active {
+button a:hover {
+    background-color: red;
+    opacity: 0.6;
+}
+
+.active {
     border-bottom: 1px solid #3a3a3a;
 
 }
@@ -128,9 +129,9 @@ li {
 
 /* Class schedule */
 
-table{
-    width:100%;
-    border-style:solid;
+table {
+    width: 100%;
+    border-style: solid;
     text-align: center;
     font-family: inherit;
     border-width: 2px;
@@ -138,7 +139,7 @@ table{
 }
 
 td {
-    border-style:solid;
+    border-style: solid;
     border-width: 2px;
     border-color: antiquewhite;
 }
@@ -170,25 +171,28 @@ td {
 /* Trial class form */
 
 
-   
 
 
-form{
+
+form {
     position: fixed;
-    left: 0px;
-    top: 0px;
-    height: 600px;
-    width: 400px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    z-index: 1;
 }
 
 .row {
     display: flex;
-  }
-  
-  /* Create three equal columns that sits next to each other */
-  .column {
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
     flex: 33.33%;
     padding: 5px;
-  }
-  
+    width: 100%;
+}
 
+#mma {
+    opacity: 0.7;
+}
