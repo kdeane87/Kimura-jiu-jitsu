@@ -25,10 +25,11 @@ header {
 }
 
 button {
+    background-color: ghostwhite;
     border: none;
     border-radius: 12px;
     color:#252525;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -43,8 +44,8 @@ button a {
 }
 
 button a:hover {
-    border: #252525;
-    border-style: ridge;
+    border-bottom: 2px solid #252525;
+    
 }
 
 .active {
