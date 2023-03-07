@@ -10,7 +10,7 @@
 
 header {
     height: 75px;
-    background-color: #252525;
+    background-color: whitesmoke;
 }
 
 
@@ -58,7 +58,7 @@ body {
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
     color: #3a3a3a;
-    background-color: antiquewhite;
+    background-color: white;
 }
 
 /* Headings and logo */
@@ -66,7 +66,7 @@ h1 {
     font-family: 'Forum', cursive;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: antiquewhite;
+    color: #252525;
 }
 
 h2 {
@@ -87,10 +87,10 @@ li {
     list-style: none;
 }
 
-/*main image */
+/*Hero image */
 
 #main-image-section {
-    background-color: #252525;
+    background-color: white;
 
 }
 
