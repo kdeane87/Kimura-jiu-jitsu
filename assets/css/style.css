@@ -18,17 +18,16 @@ header {
     line-height: 75px;
 }
 
-#nav-links {
+#menu {
     float: right;
     list-style-type: none;
     margin-right: 30px;
 }
 
 button {
-    background-color: chartreuse;
     border: none;
     border-radius: 12px;
-    color: white;
+    color:#252525;
     padding: 20px;
     text-align: center;
     text-decoration: none;
@@ -44,8 +43,8 @@ button a {
 }
 
 button a:hover {
-    background-color: red;
-    opacity: 0.6;
+    border: #252525;
+    border-style: ridge;
 }
 
 .active {
