@@ -16,15 +16,17 @@ header {
 
 #logo {
     line-height: 75px;
+    border-bottom: none;
 }
 
 #menu {
-    float: right;
+    position: absolute;
     list-style-type: none;
-    margin-right: 30px;
+    right: 0;
+    top: 0;
 }
 
-button {
+li {
     background-color: ghostwhite;
     border: none;
     border-radius: 12px;
@@ -38,12 +40,12 @@ button {
     cursor: pointer;
 }
 
-button a {
+li a {
     text-decoration: none;
     color: inherit;
 }
 
-button a:hover {
+li a:hover {
     border-bottom: 2px solid #252525;
     
 }
