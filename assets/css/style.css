@@ -10,7 +10,6 @@
 
 header {
     height: 75px;
-    background-color: whitesmoke;
 }
 
 
@@ -26,13 +25,9 @@ header {
     top: 0;
 }
 
-li {
-    background-color: ghostwhite;
-    border: none;
-    border-radius: 12px;
-    color:#252525;
+li {border: none;
+    color:ghostwhite;
     padding: 10px;
-    text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
@@ -97,11 +92,14 @@ li {
 }
 
 #main-image {
-    display: block;
+    position: fixed;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     margin-bottom: 10%;
+    top: 0;
+    z-index: -1;
+    opacity: 0.6;
 
 }
 
