@@ -186,6 +186,16 @@ form {
     border-radius: 5%;
 }
 
+#form-submit {
+    background-color: ghostwhite;
+    padding: 3%;
+}
+
+#form-submit:hover {
+    background-color: #252525;
+    color: ghostwhite;
+}
+
 .row {
     display: flex;
 }
