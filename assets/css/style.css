@@ -175,8 +175,9 @@ td {
 
 form {
     position: fixed;
-    margin-left: auto;
-    margin-right: auto;
+    top: 30%;
+    left: 50%;
+    right: 50%;
     text-align: center;
     display: block;
     width: 30%;
@@ -184,6 +185,7 @@ form {
     padding-top: 10px;  
     padding-bottom: 10px;
     border-radius: 5%;
+    opacity: 0.6;
 }
 
 #form-submit {
@@ -194,6 +196,10 @@ form {
 #form-submit:hover {
     background-color: #252525;
     color: ghostwhite;
+}
+
+#trial-image {
+    width: 100%;
 }
 
 .row {
