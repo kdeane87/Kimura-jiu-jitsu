@@ -99,14 +99,20 @@ li {
     margin-right: auto;
     width: 100%;
     margin-bottom: 10%;
+}
 
+/* video */
 
+#video-section {
+    height: 600px;
+    width: 100%;
 }
 
 /* description */
 
 #description {
-    float: left;
+    height: 600px;
+    width: 100%;
 }
 
 
@@ -135,7 +141,7 @@ table {
     text-align: center;
     font-family: inherit;
     border-width: 2px;
-    background-color: #252525;
+    background-color: darkslategray;
 }
 
 td {
@@ -153,7 +159,7 @@ td {
 }
 
 .sparring {
-    color: crimson;
+    color: black;
 }
 
 .advanced {
