@@ -101,7 +101,7 @@ li {
     margin-right: auto;
     width: 100%;
     margin-bottom: 10%;
-    height: 800px;
+    height: 900px;
     
 }
 
@@ -118,6 +118,11 @@ li {
 }
 
 #kimura-video {
+    width: 40%;
+    float: right;
+}
+
+#ground-video {
     width: 40%;
     float: right;
 }
@@ -140,6 +145,13 @@ li {
 #no-gi {
     float: right;
     text-align: right;
+    width: 40%;
+    font-size: 1.5em;
+}
+
+#worst-case {
+    float: left;
+    text-align: left;
     width: 40%;
     font-size: 1.5em;
 }
