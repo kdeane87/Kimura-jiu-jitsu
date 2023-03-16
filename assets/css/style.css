@@ -102,7 +102,7 @@ li {
     width: 100%;
     margin-bottom: 10%;
     height: 900px;
-    
+
 }
 
 /* video */
@@ -173,7 +173,7 @@ li {
 #social-media-links>li {
     padding: 20px;
     background-color: rgba(41, 27, 237, 0.3);
-border-radius: 40%;
+    border-radius: 40%;
 
 }
 
@@ -251,7 +251,7 @@ form {
     transform: translate(-50%, -50%);
     text-align: center;
     width: 30%;
-    background-color: darkslategray;
+    background-color: rgb(48, 80, 80, 0.7);
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 5%;
