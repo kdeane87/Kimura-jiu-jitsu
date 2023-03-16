@@ -64,7 +64,7 @@ body {
 h1 {
     font-family: 'Forum', cursive;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
     color: #252525;
     font-size: 80px;
 }
@@ -73,7 +73,7 @@ h2 {
     font-family: 'Forum', cursive;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #252525;
+    color: ghostwhite;
     font-size: 40px;
 
 }
@@ -92,7 +92,7 @@ li {
 /*Hero image */
 
 #main-image-section {
-    background-image: url(../images/cool-background\ \(3\).png);
+    background-color: black;
 
 }
 
@@ -133,6 +133,8 @@ li {
     height: 600px;
     width: 100%;
     position: relative;
+    background-color: black;
+    color: ghostwhite;
 }
 
 #history {
@@ -172,8 +174,9 @@ li {
 
 #social-media-links>li {
     padding: 20px;
-    background-color: rgba(41, 27, 237, 0.3);
+    background-color: rgba(41, 27, 237, 0.7);
     border-radius: 40%;
+    color: ghostwhite;
 
 }
 
