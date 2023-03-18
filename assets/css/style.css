@@ -264,7 +264,14 @@ form {
     left: 10%;
     text-align: center;
     color: ghostwhite;
+    font-size: 30px;
+    letter-spacing: 5px;
 }
+
+.form-input {
+padding: 8px;
+}
+
 
 #form-submit {
     background-color: ghostwhite;
