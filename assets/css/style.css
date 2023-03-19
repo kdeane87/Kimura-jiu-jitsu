@@ -57,7 +57,7 @@ body {
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
     color: ghostwhite;
-   background-color: black;
+    background-color: black;
 }
 
 /* Headings and logo */
@@ -91,10 +91,7 @@ li {
 
 /*Hero image */
 
-#main-image-section {
-    
-
-}
+#main-image-section {}
 
 #main-image {
     margin-left: auto;
@@ -102,7 +99,7 @@ li {
     width: 100%;
     margin-bottom: 10%;
     height: 900px;
-    
+
 
 }
 
@@ -119,39 +116,39 @@ li {
     position: fixed;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
     overflow: hidden;
-  }
-  
-  .btn span {
+}
+
+.btn span {
     font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 3px;
     transition: top 0.5s;
-  }
-  
-  .btn-text-one {
+}
+
+.btn-text-one {
     position: absolute;
     width: 100%;
     top: 50%;
     left: 0;
     transform: translateY(-50%);
-  }
-  
-  .btn-text-two {
+}
+
+.btn-text-two {
     position: absolute;
     width: 100%;
     top: 150%;
     left: 0;
     transform: translateY(-50%);
-  }
-  
-  .btn:hover .btn-text-one {
+}
+
+.btn:hover .btn-text-one {
     top: -100%;
-  }
-  
-  .btn:hover .btn-text-two {
+}
+
+.btn:hover .btn-text-two {
     top: 50%;
-  }
-  
+}
+
 
 /* video */
 
@@ -223,6 +220,7 @@ li {
     bottom: 0;
     right: 0;
     width: 300px;
+    display: inline;
 
 }
 
@@ -231,7 +229,9 @@ li {
     background-color: rgba(41, 27, 237, 0.7);
     border-radius: 40%;
     color: ghostwhite;
-
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
 }
 
 
@@ -315,7 +315,7 @@ form {
 }
 
 .form-input {
-padding: 8px;
+    padding: 8px;
 }
 
 
