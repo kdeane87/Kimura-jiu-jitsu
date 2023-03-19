@@ -22,12 +22,12 @@ header {
     position: absolute;
     list-style-type: none;
     right: 0;
-    top: 40px;
+    top: 30px;
 }
 
 li {
     border: none;
-    color: #252525;
+    color: ghostwhite;
     padding: 10px;
     text-decoration: none;
     display: inline-block;
@@ -42,12 +42,13 @@ li a {
 }
 
 li a:hover {
-    border-bottom: 2px solid #252525;
+    border-bottom: 2px solid ghostwhite;
+    color: #23487f;
 
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid ghostwhite;
 
 }
 
@@ -55,9 +56,8 @@ li a:hover {
 body {
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
-    color: #252525;
-    background-image: url(../images/cool-background\ \(3\).png);
-
+    color: ghostwhite;
+   background-color: black;
 }
 
 /* Headings and logo */
@@ -65,7 +65,7 @@ h1 {
     font-family: 'Forum', cursive;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: #252525;
+    color: ghostwhite;
     font-size: 80px;
 }
 
