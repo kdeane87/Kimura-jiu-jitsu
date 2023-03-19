@@ -177,6 +177,12 @@ li {
 
 /* description */
 
+#about-us {
+    background-color: ghostwhite;
+    color: #252525;
+    height: 600px;
+}
+
 .section {
     height: 600px;
     width: 100%;
