@@ -9,22 +9,23 @@
 /* Style Header and Navigation */
 
 header {
-   /* height: 75px; */
+    /* height: 75px; */
 }
 
 
 #logo {
-        /* line-height: 75px; */
-        /* border-bottom: none; */
-    
+    /* line-height: 75px; */
+    /* border-bottom: none; */
+
 }
 
 #menu {
-   /* position: absolute; */
+    /* position: absolute; */
     /* list-style-type: none; */
     /* right: 0; */
     /* top: 30px; */
 }
+
 
 
 li {
@@ -88,7 +89,7 @@ h2 {
     font-size: 150%;
     margin-left: 15px;
     margin-top: 15px;
-} 
+}
 
 
 li {
@@ -291,24 +292,30 @@ hr {
 /* social media */
 
 #social-media-links {
-    position: fixed;
-    bottom: 0;
+    /* bottom: 0;
     right: 0;
     width: 300px;
-    display: inline;
+    display: inline;*/
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
 
 }
 
 #social-media-links>li {
-    padding: 20px;
-    background-color: rgba(41, 27, 237, 0.7);
-    border-radius: 40%;
-    color: ghostwhite;
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
+       /* padding: 20px; */
+       background-color: rgba(41, 27, 237, 0.7);
+       border-radius: 40%;
+       color: ghostwhite;
+       /* font-size: 160%; */
+       margin: 5%;
+       padding: 5%;
 }
 
+footer {
+    background-color: ghostwhite;
+    display: flex;
+}
 
 /* Class schedule */
 
@@ -372,7 +379,7 @@ hr {
 }
  */
 
- /* media querie
+/* media querie
  #float-right {
    
     float: right;
@@ -396,6 +403,7 @@ form {
 
     color: ghostwhite;
     text-align: right;
+    margin: 15px;
 }
 
 .form-input {
@@ -415,5 +423,5 @@ form {
 
 #trial-image {
     width: 100%;
-    height: 100%;
+    margin: 5px;
 }
