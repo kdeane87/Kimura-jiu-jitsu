@@ -326,6 +326,26 @@ footer {
     display: flex;
 }
 
+@media only screen and (max-width: 600px) {
+    #social-media-links {
+        display: flex;
+        flex-grow: 1;
+        flex-basis: 0;
+     }
+     #social-media-links>li {
+        background-color: rgba(41, 27, 237);
+        border-radius: 40%;
+        color: ghostwhite;
+        margin: 5%;
+        padding: 5%;
+    }
+    footer {
+        background-color: ghostwhite;
+        display: flex;
+    
+
+}
+
 /* Class schedule */
 
 #schedule-image {
@@ -424,6 +444,19 @@ form {
     text-align: center;
 }
 
+
+@media only screen and (max-width: 600px) {
+    form {
+        color: ghostwhite;
+        margin: 20px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        padding: 15%;
+        text-align: center;
+    }
+
+}
+
 textarea {
     width: 100%;
 }
@@ -448,4 +481,16 @@ textarea {
 #trial-image {
     width: 100%;
     margin: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    form {
+        color: ghostwhite;
+        margin: 20px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        padding: 15%;
+        text-align: center;
+    }
+
 }
