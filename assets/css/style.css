@@ -9,21 +9,23 @@
 /* Style Header and Navigation */
 
 header {
-    height: 75px;
+   /* height: 75px; */
 }
 
 
 #logo {
-    line-height: 75px;
-    border-bottom: none;
+        /* line-height: 75px; */
+        /* border-bottom: none; */
+    
 }
 
 #menu {
-    position: absolute;
-    list-style-type: none;
-    right: 0;
-    top: 30px;
+   /* position: absolute; */
+    /* list-style-type: none; */
+    /* right: 0; */
+    /* top: 30px; */
 }
+
 
 li {
     border: none;
@@ -79,10 +81,15 @@ h2 {
 }
 
 #logo {
+    /* media queries
     font-size: 200%;
     float: left;
-    margin-left: 10%;
-}
+    margin-left: 10%; */
+    font-size: 150%;
+    margin-left: 15px;
+    margin-top: 15px;
+} 
+
 
 li {
     float: right;
@@ -153,7 +160,7 @@ li {
 
 #about-us {
     height: 600px;
-    font-family:inherit;
+    font-family: inherit;
     color: #252525;
 
 }
@@ -162,9 +169,9 @@ li {
     padding-top: 30px;
     width: 33%;
     float: left;
-    font-weight:inherit;
+    font-weight: inherit;
     font-size: 1.5em;
-    
+
 }
 
 #right-about {
@@ -172,7 +179,7 @@ li {
     width: 33%;
     float: right;
     font-size: 1.5em;
-    
+
 }
 
 hr {
@@ -356,22 +363,28 @@ hr {
 
 /* Trial class form */
 
+/* use for media querie 
 #float-left {
     float: left;
     width: 50%;
     height: 100%;
     height: 1000px;
 }
+ */
 
-#float-right {
+ /* media querie
+ #float-right {
+   
     float: right;
     width: 50%;
     height: 100%;
     height: 1000px;
     background-color: black;
-}
+}  */
 
 form {
+
+    /* media querie
     position: relative;
     top: 10%;
     left: 10%;
@@ -379,7 +392,10 @@ form {
     color: ghostwhite;
     font-size: 30px;
     letter-spacing: 5px;
-    margin-right: 5em;
+    margin-right: 5em; */
+
+    color: ghostwhite;
+    text-align: right;
 }
 
 .form-input {
