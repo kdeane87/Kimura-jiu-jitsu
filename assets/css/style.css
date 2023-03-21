@@ -100,6 +100,14 @@ h2 {
     margin-top: 15px;
 }
 
+@media only screen and (min-width: 600px) {
+    #logo {
+        font-size: 200%;
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+}
+
 
 li {
     float: right;
@@ -331,18 +339,21 @@ footer {
         display: flex;
         flex-grow: 1;
         flex-basis: 0;
-     }
-     #social-media-links>li {
+    }
+
+    #social-media-links>li {
         background-color: rgba(41, 27, 237);
         border-radius: 40%;
         color: ghostwhite;
         margin: 5%;
         padding: 5%;
     }
+
     footer {
         background-color: ghostwhite;
         display: flex;
-    
+    }
+
 
 }
 
@@ -480,6 +491,7 @@ textarea {
 
 #trial-image {
     width: 100%;
+    height: auto;
     margin: 5px;
 }
 
