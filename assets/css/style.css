@@ -116,7 +116,10 @@ li {
 
 /*Hero image */
 
-#main-image-section {}
+#main-image-section {
+    margin-bottom: 0;
+    background-color: ghostwhite;
+}
 
 #main-image {
     margin-left: auto;
@@ -128,53 +131,7 @@ li {
 
 }
 
-
-.btn {
-    width: 20em;
-    height: 5em;
-    background: linear-gradient(to top, #00154c, #12376e, #23487f);
-    color: #fff;
-    border-radius: 50px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    position: fixed;
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
-    overflow: hidden;
-}
-
-.btn span {
-    font-size: 18px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    transition: top 0.5s;
-}
-
-.btn-text-one {
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-}
-
-.btn-text-two {
-    position: absolute;
-    width: 100%;
-    top: 150%;
-    left: 0;
-    transform: translateY(-50%);
-}
-
-.btn:hover .btn-text-one {
-    top: -100%;
-}
-
-.btn:hover .btn-text-two {
-    top: 50%;
-}
-
-/* Why train with us */
+/* Why train with us 
 
 #about-us {
     height: 600px;
@@ -241,7 +198,7 @@ hr {
     font-size: 280%;
     color: #252525;
 }
-
+*/
 
 /* video */
 
@@ -329,7 +286,6 @@ hr {
     margin: 5%;
     padding: 1.25rem;
     display: flex;
-    padding: 1.25rem;
 }
 
 footer {
@@ -501,4 +457,47 @@ textarea {
     width: 100%;
     height: auto;
     margin: 5px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    #main-image {
+        width: 100%;
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    #welcome {
+        text-align: center;
+        font-size: 150%;
+        color: #252525;
+        padding: 20px;
+        margin-top: 0;
+    }
+    .left-about-heading>h2 {
+        font-family: 'Forum', cursive;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        font-size: 150%;
+        color: #252525;
+        text-align: center;
+        padding: 5px;
+        margin: 5px;
+    }
+    .right-about-heading>h2 {
+        font-family: 'Forum', cursive;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        font-size: 150%;
+        color: #252525;
+        text-align: center;
+        padding: 5px;
+        margin: 5px;
+    }
+.left-about-heading,.right-about-heading>p {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
 }
