@@ -316,6 +316,7 @@ hr {
     display: flex;
     flex-grow: 1;
     flex-basis: 0;
+    justify-content: center;
 
 }
 
@@ -326,7 +327,9 @@ hr {
     color: ghostwhite;
     /* font-size: 160%; */
     margin: 5%;
-    padding: 5%;
+    padding: 1.25rem;
+    display: flex;
+    padding: 1.25rem;
 }
 
 footer {
@@ -339,6 +342,7 @@ footer {
         display: flex;
         flex-grow: 1;
         flex-basis: 0;
+        justify-content: center;
     }
 
     #social-media-links>li {
@@ -346,7 +350,7 @@ footer {
         border-radius: 40%;
         color: ghostwhite;
         margin: 5%;
-        padding: 5%;
+        padding: 1.25rem;
     }
 
     footer {
@@ -453,6 +457,8 @@ form {
     margin-bottom: 60px;
     padding: 15%;
     text-align: center;
+    justify-content: center;
+    display: grid;
 }
 
 
@@ -464,6 +470,8 @@ form {
         margin-bottom: 60px;
         padding: 15%;
         text-align: center;
+        justify-content: center;
+        display: grid;
     }
 
 }
@@ -493,16 +501,4 @@ textarea {
     width: 100%;
     height: auto;
     margin: 5px;
-}
-
-@media only screen and (max-width: 600px) {
-    form {
-        color: ghostwhite;
-        margin: 20px;
-        margin-top: 60px;
-        margin-bottom: 60px;
-        padding: 15%;
-        text-align: center;
-    }
-
 }
