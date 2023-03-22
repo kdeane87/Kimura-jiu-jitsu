@@ -131,6 +131,10 @@ li {
 
 }
 
+h2>i {
+    color: darkgrey;
+}
+
 /* Why train with us 
 
 #about-us {
@@ -227,36 +231,36 @@ hr {
 #about-us {
     background-color: ghostwhite;
     color: #252525;
-    height: 600px;
+   /* height: 600px;*/
 }
 
 .section {
-    height: 600px;
+   /* height: 600px;*/
     width: 100%;
-    position: relative;
+   /* position: relative;*/
     background-color: black;
     color: ghostwhite;
 }
 
 #history {
-    float: left;
-    text-align: left;
+   /* float: left;*/
+   /* text-align: left;*/
     width: 40%;
     font-size: 1.5em;
 }
 
 #no-gi {
-    float: right;
-    text-align: right;
-    width: 40%;
-    font-size: 1.5em;
+  /*  float: right;*/
+   /* text-align: right;*/
+ /*   width: 40%;
+    font-size: 1.5em;*/
 }
 
 #worst-case {
-    float: left;
-    text-align: left;
+ /*   float: left;*/
+ /*   text-align: left;
     width: 40%;
-    font-size: 1.5em;
+    font-size: 1.5em;*/
 }
 
 
@@ -470,10 +474,11 @@ textarea {
 
     #welcome {
         text-align: center;
-        font-size: 150%;
+        font-size: 200%;
         color: #252525;
         padding: 20px;
         margin-top: 0;
+        font-family: 'Forum',cursive;
     }
     .left-about-heading>h2 {
         font-family: 'Forum', cursive;
@@ -499,5 +504,71 @@ textarea {
     text-align: center;
     padding: 5px;
     margin: 5px;
+    margin-bottom: 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 200%;
+    color: ghostwhite;
+    padding: 20px;
+    margin-top: 0;
+    font-family: 'Forum',cursive;
+}
+
+.hr-75 {
+    display: block;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 75%;
+}
+.hr-75-white {
+    display: block;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 75%;
+    color: ghostwhite;
+}
+#history {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 0;
+    width: 100%;
+}
+p {
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 0;
+}
+#kimura-video {
+    height: auto;
+    width: 100%;
+}
+#submission-video {
+    height: auto;
+    width: 100%;
+}
+#worst-case {
+    height: auto;
+    width: 100%;
+}
+#ground-video {
+    height: auto;
+    width: 100%; 
+}
+#map {
+    height: auto;
+    width: 100%;
+    margin-bottom: 0;
 }
 }
