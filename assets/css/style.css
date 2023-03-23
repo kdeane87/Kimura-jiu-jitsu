@@ -8,9 +8,11 @@
 
 /* Style Header and Navigation */
 
-header {
-    /* height: 75px; */
-}
+
+
+/*header {
+     height: 100px;
+}*/
 
 
 #logo {
@@ -90,23 +92,22 @@ h2 {
 
 }
 
-#logo {
+/*#logo {
     /* media queries
     font-size: 200%;
     float: left;
-    margin-left: 10%; */
+    margin-left: 10%; 
     font-size: 150%;
     margin-left: 15px;
     margin-top: 15px;
-}
+} */
 
-@media only screen and (min-width: 600px) {
+
     #logo {
         font-size: 200%;
         margin-left: 40px;
         margin-top: 40px;
     }
-}
 
 
 li {
@@ -126,9 +127,6 @@ li {
     margin-right: auto;
     width: 100%;
     margin-bottom: 10%;
-    height: 900px;
-
-
 }
 
 h2>i {
@@ -297,7 +295,7 @@ footer {
     display: flex;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     #social-media-links {
         display: flex;
         flex-grow: 1;
@@ -321,7 +319,15 @@ footer {
 
 }
 
+@media only screen and (max-width: 768px) {
+
+}
+
 /* Class schedule */
+
+#schedule-body {
+    width: 220%;
+}
 
 #schedule-image {
     width: 100%;
@@ -336,13 +342,14 @@ table {
     border-width: 2px;
     background-color: darkslategray;
     margin-top: 5%;
-}
+} 
 
 td {
     border-style: solid;
     border-width: 2px;
     border-color: antiquewhite;
 }
+
 
 .kids {
     color: chartreuse;
@@ -422,7 +429,7 @@ form {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     form {
         color: ghostwhite;
         margin: 20px;
@@ -464,7 +471,7 @@ textarea {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
 
     #main-image {
         width: 100%;
