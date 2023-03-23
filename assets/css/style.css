@@ -8,19 +8,6 @@
 
 /* Style Header and Navigation */
 
-
-
-/*header {
-     height: 100px;
-}*/
-
-
-#logo {
-    /* line-height: 75px; */
-    /* border-bottom: none; */
-
-}
-
 nav {
     display: flex;
 }
@@ -84,30 +71,21 @@ h1 {
 }
 
 h2 {
+    text-align: center;
+    font-size: 260%;
+    color: ghostwhite;
+    padding: 100px;
+    margin-top: 0;
     font-family: 'Forum', cursive;
     text-transform: uppercase;
-    letter-spacing: 4px;
-    color: ghostwhite;
-    font-size: 40px;
 
 }
 
-/*#logo {
-    /* media queries
+#logo {
     font-size: 200%;
-    float: left;
-    margin-left: 10%; 
-    font-size: 150%;
-    margin-left: 15px;
-    margin-top: 15px;
-} */
-
-
-    #logo {
-        font-size: 200%;
-        margin-left: 40px;
-        margin-top: 40px;
-    }
+    margin-left: 40px;
+    margin-top: 40px;
+}
 
 
 li {
@@ -123,405 +101,17 @@ li {
 }
 
 #main-image {
-    margin-left: auto;
-    margin-right: auto;
     width: 100%;
-    margin-bottom: 10%;
+    height: auto;
+    margin-bottom: 0;
+
 }
 
 h2>i {
     color: darkgrey;
 }
 
-/* Why train with us 
-
-#about-us {
-    height: 600px;
-    font-family: inherit;
-    color: #252525;
-
-}
-
-#left-about {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-    font-weight: inherit;
-    font-size: 1.5em;
-
-}
-
-#right-about {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-    font-size: 1.5em;
-
-}
-
-hr {
-    border-top: 1px solid #3a3a3a;
-    width: 100%;
-    margin: 5px 0;
-}
-
-.left-about-heading h2 {
-    color: #252525;
-}
-
-.left-about-heading {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-about-heading {
-    width: 60%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-about-heading h2 {
-    text-align: right;
-    color: #252525;
-}
-
-.right-about-heading {
-    text-align: right;
-}
-
-#welcome {
-    text-align: center;
-    margin: 20px 0;
-    font-size: 280%;
-    color: #252525;
-}
-*/
-
-/* video */
-
-#video-section {
-    height: 600px;
-    width: 100%;
-}
-
-#submission-video {
-    width: 40%;
-    float: left;
-}
-
-#kimura-video {
-    width: 40%;
-    float: right;
-}
-
-#ground-video {
-    width: 40%;
-    float: right;
-}
-
-/* description */
-
-#about-us {
-    background-color: ghostwhite;
-    color: #252525;
-   /* height: 600px;*/
-}
-
-.section {
-   /* height: 600px;*/
-    width: 100%;
-   /* position: relative;*/
-    background-color: black;
-    color: ghostwhite;
-}
-
-#history {
-   /* float: left;*/
-   /* text-align: left;*/
-    width: 40%;
-    font-size: 1.5em;
-}
-
-#no-gi {
-  /*  float: right;*/
-   /* text-align: right;*/
- /*   width: 40%;
-    font-size: 1.5em;*/
-}
-
-#worst-case {
- /*   float: left;*/
- /*   text-align: left;
-    width: 40%;
-    font-size: 1.5em;*/
-}
-
-
-
-
-
-/* social media */
-
-#social-media-links {
-    /* bottom: 0;
-    right: 0;
-    width: 300px;
-    display: inline;*/
-    display: flex;
-    flex-grow: 1;
-    flex-basis: 0;
-    justify-content: center;
-
-}
-
-#social-media-links>li {
-    /* padding: 20px; */
-    background-color: rgba(41, 27, 237);
-    border-radius: 40%;
-    color: ghostwhite;
-    /* font-size: 160%; */
-    margin: 5%;
-    padding: 1.25rem;
-    display: flex;
-}
-
-footer {
-    background-color: ghostwhite;
-    display: flex;
-}
-
-@media only screen and (max-width: 768px) {
-    #social-media-links {
-        display: flex;
-        flex-grow: 1;
-        flex-basis: 0;
-        justify-content: center;
-    }
-
-    #social-media-links>li {
-        background-color: rgba(41, 27, 237);
-        border-radius: 40%;
-        color: ghostwhite;
-        margin: 5%;
-        padding: 1.25rem;
-    }
-
-    footer {
-        background-color: ghostwhite;
-        display: flex;
-    }
-
-
-}
-
-@media only screen and (max-width: 768px) {
-
-}
-
-/* Class schedule */
-
-#schedule-body {
-    width: 220%;
-}
-
-#schedule-image {
-    width: 100%;
-
-}
-
-table {
-    width: 100%;
-    border-style: solid;
-    text-align: center;
-    font-family: inherit;
-    border-width: 2px;
-    background-color: darkslategray;
-    margin-top: 5%;
-} 
-
-td {
-    border-style: solid;
-    border-width: 2px;
-    border-color: antiquewhite;
-}
-
-
-.kids {
-    color: chartreuse;
-}
-
-.circuits {
-    color: aqua;
-}
-
-.sparring {
-    color: black;
-}
-
-.advanced {
-    color: gold;
-}
-
-.fundamentals {
-    color: paleturquoise;
-}
-
-#days {
-    color: antiquewhite;
-}
-
-hr {
-    display: block;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
-}
-
-/* Trial class form */
-
-/* use for media querie 
-#float-left {
-    float: left;
-    width: 50%;
-    height: 100%;
-    height: 1000px;
-}
- */
-
-/* media querie
- #float-right {
-   
-    float: right;
-    width: 50%;
-    height: 100%;
-    height: 1000px;
-    background-color: black;
-}  */
-
-form {
-
-    /* media querie
-    position: relative;
-    top: 10%;
-    left: 10%;
-    text-align: right;
-    color: ghostwhite;
-    font-size: 30px;
-    letter-spacing: 5px;
-    margin-right: 5em; */
-
-    color: ghostwhite;
-    /* text-align: right; */
-    margin: 20px;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    padding: 15%;
-    text-align: center;
-    justify-content: center;
-    display: grid;
-}
-
-
-@media only screen and (max-width: 768px) {
-    form {
-        color: ghostwhite;
-        margin: 20px;
-        margin-top: 60px;
-        margin-bottom: 60px;
-        padding: 15%;
-        text-align: center;
-        justify-content: center;
-        display: grid;
-    }
-
-}
-
-textarea {
-    width: 100%;
-}
-
-.form-input {
-    padding: 8px;
-}
-
-
-#form-submit {
-
-    background-color: ghostwhite;
-    padding: 5%;
-    font-size: 20px;
-}
-
-#form-submit:hover {
-    background-color: rgba(41, 27, 237);
-    color: ghostwhite;
-}
-
-#trial-image {
-    width: 100%;
-    height: auto;
-    margin: 5px;
-}
-
-
-@media only screen and (max-width: 768px) {
-
-    #main-image {
-        width: 100%;
-        height: auto;
-        margin-bottom: 0;
-    }
-
-    #welcome {
-        text-align: center;
-        font-size: 200%;
-        color: #252525;
-        padding: 20px;
-        margin-top: 0;
-        font-family: 'Forum',cursive;
-    }
-    .left-about-heading>h2 {
-        font-family: 'Forum', cursive;
-        text-transform: uppercase;
-        letter-spacing: 4px;
-        font-size: 150%;
-        color: #252525;
-        text-align: center;
-        padding: 5px;
-        margin: 5px;
-    }
-    .right-about-heading>h2 {
-        font-family: 'Forum', cursive;
-        text-transform: uppercase;
-        letter-spacing: 4px;
-        font-size: 150%;
-        color: #252525;
-        text-align: center;
-        padding: 5px;
-        margin: 5px;
-    }
-.left-about-heading,.right-about-heading>p {
-    text-align: center;
-    padding: 5px;
-    margin: 5px;
-    margin-bottom: 0;
-}
-
-h2 {
-    text-align: center;
-    font-size: 200%;
-    color: ghostwhite;
-    padding: 20px;
-    margin-top: 0;
-    font-family: 'Forum',cursive;
-}
+/* Why train with us */
 
 .hr-75 {
     display: block;
@@ -532,6 +122,7 @@ h2 {
     border-width: 1px;
     width: 75%;
 }
+
 .hr-75-white {
     display: block;
     margin-bottom: 0;
@@ -542,40 +133,460 @@ h2 {
     width: 75%;
     color: ghostwhite;
 }
-#history {
-    text-align: center;
-    padding: 5px;
-    margin: 5px;
-    margin-bottom: 0;
-    width: 100%;
-}
+
 p {
-    font-size: 20px;
+    font-size: 25px;
     width: 100%;
     text-align: center;
-    padding: 5px;
-    margin: 5px;
+    padding: 20px;
+    margin: 12px;
     margin-bottom: 0;
+
 }
-#kimura-video {
-    height: auto;
+
+#left-about {}
+
+#right-about {}
+
+hr {
+    border-top: 1px solid #3a3a3a;
     width: 100%;
+    margin: 5px 0;
 }
-#submission-video {
-    height: auto;
-    width: 100%;
+
+.left-about-headin>h2 {
+    font-family: 'Forum', cursive;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 200%;
+    color: #252525;
+    text-align: center;
+    padding: 20px;
+    margin: 12px;
 }
-#worst-case {
-    height: auto;
-    width: 100%;
+
+.left-about-heading>h2 {
+    font-family: 'Forum', cursive;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 200%;
+    color: #252525;
+    text-align: center;
+    padding: 20px;
+    margin: 12px;
 }
-#ground-video {
-    height: auto;
-    width: 100%; 
+
+    .right-about-heading h2 {
+        font-family: 'Forum', cursive;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        font-size: 200%;
+        color: #252525;
+        text-align: center;
+        padding: 20px;
+        margin: 12px;
+    }
+
+    .right-about-heading {}
+
+    #welcome {
+        text-align: center;
+        font-size: 260%;
+        color: #252525;
+        padding: 100px;
+        margin-top: 0;
+        font-family: 'Forum', cursive;
+    }
+
+
+    /* video */
+
+    #video-section {
+        width: 100%;
+    }
+
+    #submission-video {
+        width: 40%;
+        float: left;
+    }
+
+    #kimura-video {
+        width: 40%;
+        float: right;
+    }
+
+    #ground-video {
+        width: 40%;
+        float: right;
+    }
+
+    /* description */
+
+    #about-us {
+        background-color: ghostwhite;
+        color: #252525;
+        /* height: 600px;*/
+    }
+
+    .section {
+        /* height: 600px;*/
+        width: 100%;
+        /* position: relative;*/
+        background-color: black;
+        color: ghostwhite;
+    }
+
+    #history {
+        float: left;
+        text-align: left;
+        width: 40%;
+        font-size: 1.5em;
+    }
+
+    #no-gi {
+        float: right;
+        text-align: right;
+        width: 40%;
+        font-size: 1.5em;
+    }
+
+    #worst-case {
+        float: left;
+        text-align: left;
+        width: 40%;
+        font-size: 1.5em;
+    }
+
+
+
+
+
+    /* social media */
+
+    #social-media-links {
+        /* bottom: 0;
+    right: 0;
+    width: 300px;
+    display: inline;*/
+        display: flex;
+        flex-grow: 1;
+        flex-basis: 0;
+        justify-content: center;
+
+    }
+
+    #social-media-links>li {
+        /* padding: 20px; */
+        background-color: rgba(41, 27, 237);
+        border-radius: 40%;
+        color: ghostwhite;
+        /* font-size: 160%; */
+        margin: 5%;
+        padding: 1.25rem;
+        display: flex;
+    }
+
+    footer {
+        background-color: ghostwhite;
+        display: flex;
+    }
+
+    #map {
+        height: auto;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    @media only screen and (max-width: 768px) {
+        #social-media-links {
+            display: flex;
+            flex-grow: 1;
+            flex-basis: 0;
+            justify-content: center;
+        }
+
+        #social-media-links>li {
+            background-color: rgba(41, 27, 237);
+            border-radius: 40%;
+            color: ghostwhite;
+            margin: 5%;
+            padding: 1.25rem;
+        }
+
+        footer {
+            background-color: ghostwhite;
+            display: flex;
+        }
+
+
+    }
+
+    @media only screen and (max-width: 768px) {
+
+        #main-image {
+            width: 100%;
+            height: auto;
+            margin-bottom: 0;
+        }
+
+        #welcome {
+            text-align: center;
+            font-size: 200%;
+            color: #252525;
+            padding: 20px;
+            margin-top: 0;
+            font-family: 'Forum', cursive;
+        }
+
+        .left-about-heading>h2 {
+            font-family: 'Forum', cursive;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            font-size: 150%;
+            color: #252525;
+            text-align: center;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        .right-about-heading>h2 {
+            font-family: 'Forum', cursive;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            font-size: 150%;
+            color: #252525;
+            text-align: center;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        .left-about-heading,
+        .right-about-heading>p {
+            text-align: center;
+            padding: 5px;
+            margin: 5px;
+            margin-bottom: 0;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 200%;
+            color: ghostwhite;
+            padding: 20px;
+            margin-top: 0;
+            font-family: 'Forum', cursive;
+        }
+
+        .hr-75 {
+            display: block;
+            margin-bottom: 0;
+            margin-left: auto;
+            margin-right: auto;
+            border-style: inset;
+            border-width: 1px;
+            width: 75%;
+        }
+
+        .hr-75-white {
+            display: block;
+            margin-bottom: 0;
+            margin-left: auto;
+            margin-right: auto;
+            border-style: inset;
+            border-width: 1px;
+            width: 75%;
+            color: ghostwhite;
+        }
+
+        #history {
+            text-align: center;
+            padding: 5px;
+            margin: 5px;
+            margin-bottom: 0;
+            width: 100%;
+        }
+
+        p {
+            font-size: 20px;
+            width: 100%;
+            text-align: center;
+            padding: 5px;
+            margin: 5px;
+            margin-bottom: 0;
+        }
+
+        #kimura-video {
+            height: auto;
+            width: 100%;
+        }
+
+        #submission-video {
+            height: auto;
+            width: 100%;
+        }
+
+        #worst-case {
+            height: auto;
+            width: 100%;
+        }
+
+        #ground-video {
+            height: auto;
+            width: 100%;
+        }
+
+        #map {
+            height: auto;
+            width: 100%;
+            margin-bottom: 0;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {}
+
+    /* Class schedule */
+
+    #schedule-body {
+        width: 220%;
+    }
+
+    #schedule-image {
+        width: 100%;
+
+    }
+
+    table {
+        width: 100%;
+        border-style: solid;
+        text-align: center;
+        font-family: inherit;
+        border-width: 2px;
+        background-color: darkslategray;
+        margin-top: 5%;
+    }
+
+    td {
+        border-style: solid;
+        border-width: 2px;
+        border-color: antiquewhite;
+    }
+
+
+    .kids {
+        color: chartreuse;
+    }
+
+    .circuits {
+        color: aqua;
+    }
+
+    .sparring {
+        color: black;
+    }
+
+    .advanced {
+        color: gold;
+    }
+
+    .fundamentals {
+        color: paleturquoise;
+    }
+
+    #days {
+        color: antiquewhite;
+    }
+
+    hr {
+        display: block;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: 1px;
+    }
+
+    /* Trial class form */
+
+    /* use for media querie 
+#float-left {
+    float: left;
+    width: 50%;
+    height: 100%;
+    height: 1000px;
 }
-#map {
-    height: auto;
-    width: 100%;
-    margin-bottom: 0;
-}
-}
+ */
+
+    /* media querie
+ #float-right {
+   
+    float: right;
+    width: 50%;
+    height: 100%;
+    height: 1000px;
+    background-color: black;
+}  */
+
+    form {
+
+        /* media querie
+    position: relative;
+    top: 10%;
+    left: 10%;
+    text-align: right;
+    color: ghostwhite;
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-right: 5em; */
+
+        color: ghostwhite;
+        /* text-align: right; */
+        margin: 20px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        padding: 15%;
+        text-align: center;
+        justify-content: center;
+        display: grid;
+    }
+
+
+    @media only screen and (max-width: 768px) {
+        form {
+            color: ghostwhite;
+            margin: 20px;
+            margin-top: 60px;
+            margin-bottom: 60px;
+            padding: 15%;
+            text-align: center;
+            justify-content: center;
+            display: grid;
+        }
+
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    .form-input {
+        padding: 8px;
+    }
+
+
+    #form-submit {
+
+        background-color: ghostwhite;
+        padding: 5%;
+        font-size: 20px;
+    }
+
+    #form-submit:hover {
+        background-color: rgba(41, 27, 237);
+        color: ghostwhite;
+    }
+
+    #trial-image {
+        width: 100%;
+        height: auto;
+        margin: 5px;
+    }
