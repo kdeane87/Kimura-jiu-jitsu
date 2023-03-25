@@ -152,6 +152,7 @@ hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
     margin: 5px 0;
+    margin-top: ;
 }
 
 .left-about-headin>h2 {
@@ -456,10 +457,6 @@ footer {
 
 /* Class schedule */
 
-#schedule-body {
-    width: 220%;
-}
-
 #schedule-image {
     width: 100%;
 
@@ -513,6 +510,7 @@ hr {
     margin-right: auto;
     border-style: inset;
     border-width: 1px;
+    margin-top: 0;
 }
 
 /* Trial class form */
