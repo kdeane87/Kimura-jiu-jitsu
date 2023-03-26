@@ -304,6 +304,8 @@ footer {
         flex-grow: 1;
         flex-basis: 0;
         justify-content: center;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     #social-media-links>li {
@@ -459,6 +461,7 @@ footer {
 
 #schedule-image {
     width: 100%;
+    margin-bottom: -10px;
 
 }
 
