@@ -134,15 +134,15 @@ h2>i {
     color: ghostwhite;
 }
 
-/*p {
+p {
     font-size: 25px;
-    width: 100%;
+    /*width: 100%;*/
     text-align: center;
     padding: 20px;
     margin: 12px;
     margin-bottom: 0;
 
-}*/
+}
 
 #left-about {}
 
@@ -188,9 +188,7 @@ hr {
     margin: 12px;
 }
 
-.right-about-heading {}
-
-#welcome {
+#why-train {
     text-align: center;
     font-size: 260%;
     color: #252525;
@@ -332,7 +330,7 @@ footer {
         margin-bottom: 0;
     }
 
-    #welcome {
+    #why-train {
         text-align: center;
         font-size: 200%;
         color: #252525;
