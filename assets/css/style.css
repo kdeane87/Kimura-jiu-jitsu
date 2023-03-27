@@ -196,9 +196,9 @@ hr {
 
 /* video */
 
-#video-section {
+/*#video-section {
     width: 100%;
-}
+}*/
 
 #no-gi-image {
     width: 40%;
@@ -422,6 +422,11 @@ footer {
         margin-bottom: 0;
     }
 
+    #worst-case {
+        text-align: center;
+        width: 100%;
+    }
+
     #gi-image {
         height: auto;
         width: 100%;
@@ -437,7 +442,7 @@ footer {
         width: 100%;
     }
 
-    #ground-video {
+    #worse-case-image {
         height: auto;
         width: 100%;
     }
