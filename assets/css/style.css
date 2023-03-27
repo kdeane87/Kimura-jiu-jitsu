@@ -113,6 +113,11 @@ h2>i {
 
 /* Why train with us */
 
+.why-train-p {
+    text-align: center;
+}
+
+
 .hr-75 {
     display: block;
     margin-bottom: 0;
@@ -137,7 +142,7 @@ h2>i {
 p {
     font-size: 25px;
     /*width: 100%;*/
-    text-align: center;
+    /*text-align: center;*/
     padding: 20px;
     margin: 12px;
     margin-bottom: 0;
@@ -231,25 +236,31 @@ hr {
     color: ghostwhite;
 }
 
+@media only screen and (min-width: 769px) {
 #history {
     float: left;
     text-align: left;
     width: 40%;
-    font-size: 1.5em;
+    /*font-size: 1.5em;*/
+}
+}
+
+.h2-center {
+    text-align: center;
 }
 
 #no-gi {
     float: right;
     text-align: right;
     width: 40%;
-    font-size: 1.5em;
+    /*font-size: 1.5em;*/
 }
 
 #worst-case {
     float: left;
     text-align: left;
     width: 40%;
-    font-size: 1.5em;
+   /* font-size: 1.5em;*/
 }
 
 
@@ -290,9 +301,14 @@ footer {
     height: auto;
     width: 100%;
     margin-bottom: 0;
+    height: 400px;
 }
 
 @media only screen and (max-width: 768px) {
+    .why-train-p {
+        text-align: center;
+    }
+
     #social-media-links {
         display: flex;
         flex-grow: 1;
@@ -357,13 +373,13 @@ footer {
         margin: 5px;
     }
 
-    .left-about-heading,
+    /*.left-about-heading,
     .right-about-heading>p {
         text-align: center;
         padding: 5px;
         margin: 5px;
         margin-bottom: 0;
-    }
+    }*/
 
     h2 {
         text-align: center;
@@ -395,13 +411,13 @@ footer {
         color: ghostwhite;
     }
 
-    #history {
+    /*#history {
         text-align: center;
         padding: 5px;
         margin: 5px;
         margin-bottom: 0;
         width: 100%;
-    }
+    }*/
 
     #no-gi {
 
@@ -415,11 +431,13 @@ footer {
 
     p {
         font-size: 20px;
-        width: 100%;
+        width: 80%;
         text-align: center;
         padding: 5px;
         margin: 5px;
         margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #worst-case {
