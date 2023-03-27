@@ -200,17 +200,17 @@ hr {
     width: 100%;
 }
 
-#submission-video {
+#no-gi-image {
     width: 40%;
     float: left;
 }
 
-#kimura-video {
+#gi-image {
     width: 40%;
     float: right;
 }
 
-#ground-video {
+#worst-case-image {
     width: 40%;
     float: right;
 }
@@ -422,17 +422,17 @@ footer {
         margin-bottom: 0;
     }
 
-    #kimura-video {
+    #gi-image {
         height: auto;
         width: 100%;
     }
 
-    #submission-video {
+    #no-gi-image {
         height: auto;
         width: 100%;
     }
 
-    #worst-case {
+    #worst-case-image {
         height: auto;
         width: 100%;
     }
