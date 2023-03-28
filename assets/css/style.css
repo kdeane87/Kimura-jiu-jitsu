@@ -590,6 +590,11 @@ form {
         display: grid;
     }
 
+   #image-form{ display: flex;
+    flex-direction: column;
+   }
+}
+
 }
 
 textarea {
@@ -617,4 +622,8 @@ textarea {
     width: 100%;
     height: auto;
     margin: 5px;
+}
+
+#image-form {
+    display: flex;
 }
