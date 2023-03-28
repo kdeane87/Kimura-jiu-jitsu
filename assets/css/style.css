@@ -604,9 +604,19 @@ form {
    #image-form{ display: flex;
     flex-direction: column;
    }
-}
+
+   #schedule-image {
+    
+    display: none;
 
 }
+
+#mma {
+    width: 100%;
+}
+}
+
+
 
 textarea {
     width: 100%;
