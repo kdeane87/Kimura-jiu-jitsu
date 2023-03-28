@@ -52,11 +52,12 @@
             <input type="date" class="form-input" id="dob" name="dob"><br><br>
             <label for="gender">Gender:</label>
             <select id="gender" class="form-input">
-                <option></option>
+                <option style="display:none">Select</option>
                 <option label="Male">Male</option>
                 <option label="Female">Female</option>
                 <option label="Other">Other</option>
                 <option label="Rather Not Say">Rather Not Say</option>
+                
 
             </select>
             <br><br>
@@ -67,7 +68,7 @@
             <input type="email" class="form-input" id="email" name="email" placeholder="example@gmail.com"
                 required><br><br>
             <label for="info">Additional Information:</label><br>
-            <textarea name="info" rows="10" cols="30" placeholder="Message"></textarea><br><br>
+            <textarea id="info" name="info" rows="10" cols="30" placeholder="Message"></textarea><br><br>
             <input type="submit" value="Submit" id="form-submit">
 
 
@@ -101,5 +102,6 @@
     <script src="https://kit.fontawesome.com/9a6327195d.js" crossorigin="anonymous"></script>
 
 </body>
+
 
 </html>
