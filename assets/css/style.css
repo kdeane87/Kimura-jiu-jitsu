@@ -472,15 +472,22 @@ footer {
     }
 }
 
-@media only screen and (max-width: 768px) {}
-
 /* Class schedule */
 
 #schedule-image {
-    width: 100%;
-    margin-bottom: -10px;
+    width: 50%;
+    
 
 }
+
+#mma {
+    width: 50%;
+}
+
+#image-container {
+    display: flex;
+}
+
 
 table {
     width: 100%;
@@ -531,6 +538,10 @@ hr {
     border-style: inset;
     border-width: 1px;
     margin-top: 0;
+}
+
+#table-container {
+    overflow: auto;
 }
 
 /* Trial class form */
