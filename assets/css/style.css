@@ -138,6 +138,11 @@ h2>i {
     width: 75%;
     color: ghostwhite;
 }
+@media only screen and (min-width: 769px) {
+    .hr-75-white {
+        width: 100%;
+    }
+}
 
 p {
     font-size: 25px;
@@ -238,10 +243,7 @@ hr {
 
 @media only screen and (min-width: 769px) {
 #history {
-    float: left;
-    text-align: left;
-    width: 40%;
-    /*font-size: 1.5em;*/
+   display: flex;
 }
 }
 
@@ -250,17 +252,12 @@ hr {
 }
 
 #no-gi {
-    float: right;
-    text-align: right;
-    width: 40%;
-    /*font-size: 1.5em;*/
+   display: flex;
+   flex-direction: row-reverse;
 }
 
 #worst-case {
-    float: left;
-    text-align: left;
-    width: 40%;
-   /* font-size: 1.5em;*/
+    display: flex;
 }
 
 
@@ -421,12 +418,21 @@ footer {
 
     #no-gi {
 
+        font-size: 20px;
+        width: 100%;
         text-align: center;
         padding: 5px;
         margin: 5px;
         margin-bottom: 0;
-        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+    }
 
+    #history {
+        display: flex;
+        flex-direction: column;
     }
 
     p {
@@ -443,6 +449,8 @@ footer {
     #worst-case {
         text-align: center;
         width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 
     #gi-image {
