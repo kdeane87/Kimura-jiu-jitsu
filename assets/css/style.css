@@ -280,7 +280,7 @@ hr {
 
 #social-media-links>li {
     /* padding: 20px; */
-    background-color: rgba(41, 27, 237);
+    background-color: #252525;
     border-radius: 40%;
     color: ghostwhite;
     /* font-size: 160%; */
@@ -316,7 +316,7 @@ footer {
     }
 
     #social-media-links>li {
-        background-color: rgba(41, 27, 237);
+        background-color: #252525;
         border-radius: 40%;
         color: ghostwhite;
         margin: 5%;
