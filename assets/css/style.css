@@ -13,10 +13,7 @@ nav {
 }
 
 #menu {
-    /* position: absolute; */
-    /* list-style-type: none; */
-    /* right: 0; */
-    /* top: 30px; */
+
     display: flex;
     flex-grow: 1;
     flex-basis: 0;
@@ -32,9 +29,15 @@ li {
     padding: 10px;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 25px;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 769px) {
+    li {
+        font-size: 16px;
+    }
 }
 
 
