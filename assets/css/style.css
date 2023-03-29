@@ -67,6 +67,7 @@ body {
 }
 
 /* Headings and logo */
+
 h1 {
     font-family: 'Forum', cursive;
     text-transform: uppercase;
@@ -338,6 +339,8 @@ footer {
 
 }
 
+/* Responsiveness for homepage images and text */ 
+
 @media only screen and (max-width: 768px) {
 
     #main-image {
@@ -515,7 +518,7 @@ td {
 }
 
 .sparring {
-    color: black;
+    color: white;
 }
 
 .advanced {
@@ -557,6 +560,7 @@ form {
     display: grid;
 }
 
+/* Resize form and images for responsiveness */
 
 @media only screen and (max-width: 768px) {
     form {
