@@ -37,14 +37,14 @@ li {
     cursor: pointer;
 }
 
+
 li a {
     text-decoration: none;
     color: inherit;
 }
 
-li a:hover {
-    border-bottom: 2px solid ghostwhite;
-    color: #23487f;
+.menu:hover {
+    color: deepskyblue;
 
 }
 
@@ -287,6 +287,11 @@ hr {
     margin: 5%;
     padding: 1.25rem;
     display: flex;
+}
+
+#social-media-links>li:hover {
+    background-color: deepskyblue;
+    color: #252525;
 }
 
 footer {
