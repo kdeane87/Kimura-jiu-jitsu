@@ -34,6 +34,8 @@ li {
     cursor: pointer;
 }
 
+/* Reduce menu font size */
+
 @media only screen and (max-width: 769px) {
     li {
         font-size: 16px;
@@ -141,6 +143,9 @@ h2>i {
     width: 75%;
     color: ghostwhite;
 }
+
+/* Make hr on black background 100% for larger screens */
+
 @media only screen and (min-width: 769px) {
     .hr-75-white {
         width: 100%;
@@ -149,8 +154,6 @@ h2>i {
 
 p {
     font-size: 25px;
-    /*width: 100%;*/
-    /*text-align: center;*/
     padding: 20px;
     margin: 12px;
     margin-bottom: 0;
@@ -207,11 +210,7 @@ hr {
 }
 
 
-/* video */
-
-/*#video-section {
-    width: 100%;
-}*/
+/* images */
 
 #no-gi-image {
     width: 40%;
@@ -233,16 +232,15 @@ hr {
 #about-us {
     background-color: ghostwhite;
     color: #252525;
-    /* height: 600px;*/
 }
 
 .section {
-    /* height: 600px;*/
     width: 100%;
-    /* position: relative;*/
     background-color: black;
     color: ghostwhite;
 }
+
+/* Makes p and image appear side by side */
 
 @media only screen and (min-width: 769px) {
 #history {
@@ -270,10 +268,6 @@ hr {
 /* social media */
 
 #social-media-links {
-    /* bottom: 0;
-    right: 0;
-    width: 300px;
-    display: inline;*/
     display: flex;
     flex-grow: 1;
     flex-basis: 0;
@@ -282,11 +276,9 @@ hr {
 }
 
 #social-media-links>li {
-    /* padding: 20px; */
     background-color: #252525;
     border-radius: 40%;
     color: ghostwhite;
-    /* font-size: 160%; */
     margin: 5%;
     padding: 1.25rem;
     display: flex;
@@ -309,10 +301,17 @@ footer {
     height: 400px;
 }
 
+/* Make why train p text smaller */
+
 @media only screen and (max-width: 768px) {
     .why-train-p {
         text-align: center;
     }
+}
+
+/* Make social media icons smaller */
+
+    @media only screen and (max-width: 768px) {
 
     #social-media-links {
         display: flex;
@@ -378,14 +377,6 @@ footer {
         margin: 5px;
     }
 
-    /*.left-about-heading,
-    .right-about-heading>p {
-        text-align: center;
-        padding: 5px;
-        margin: 5px;
-        margin-bottom: 0;
-    }*/
-
     h2 {
         text-align: center;
         font-size: 200%;
@@ -416,13 +407,6 @@ footer {
         color: ghostwhite;
     }
 
-    /*#history {
-        text-align: center;
-        padding: 5px;
-        margin: 5px;
-        margin-bottom: 0;
-        width: 100%;
-    }*/
 
     #no-gi {
 
@@ -562,39 +546,8 @@ hr {
 
 /* Trial class form */
 
-/* use for media querie 
-#float-left {
-    float: left;
-    width: 50%;
-    height: 100%;
-    height: 1000px;
-}
- */
-
-/* media querie
- #float-right {
-   
-    float: right;
-    width: 50%;
-    height: 100%;
-    height: 1000px;
-    background-color: black;
-}  */
-
 form {
-
-    /* media querie
-    position: relative;
-    top: 10%;
-    left: 10%;
-    text-align: right;
-    color: ghostwhite;
-    font-size: 30px;
-    letter-spacing: 5px;
-    margin-right: 5em; */
-
-    color: ghostwhite;
-    /* text-align: right; */
+ color: ghostwhite;
     margin: 20px;
     margin-top: 60px;
     margin-bottom: 60px;
