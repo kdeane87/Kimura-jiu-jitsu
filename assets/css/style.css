@@ -1,623 +1,619 @@
 @import url('https://fonts.googleapis.com/css2?family=Forum&family=Work+Sans&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
+	margin: 0;
+	padding: 0;
+	border: none;
 }
 
 /* Style Header and Navigation */
 
 nav {
-    display: flex;
+	display: flex;
 }
 
 #menu {
 
-    display: flex;
-    flex-grow: 1;
-    flex-basis: 0;
-    flex-direction: row-reverse;
-    margin-top: 15px;
+	display: flex;
+	flex-grow: 1;
+	flex-basis: 0;
+	flex-direction: row-reverse;
+	margin-top: 15px;
 }
 
 
-
 li {
-    border: none;
-    color: ghostwhite;
-    padding: 10px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 25px;
-    margin: 4px 2px;
-    cursor: pointer;
+	border: none;
+	color: ghostwhite;
+	padding: 10px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 25px;
+	margin: 4px 2px;
+	cursor: pointer;
 }
 
 /* Reduce menu font size */
 
 @media only screen and (max-width: 769px) {
-    li {
-        font-size: 16px;
-    }
+	li {
+		font-size: 16px;
+	}
 }
 
 
 li a {
-    text-decoration: none;
-    color: inherit;
+	text-decoration: none;
+	color: inherit;
 }
 
 .menu:hover {
-    color: deepskyblue;
+	color: deepskyblue;
 
 }
 
 .active {
-    border-bottom: 1px solid ghostwhite;
+	border-bottom: 1px solid ghostwhite;
 
 }
 
 
 body {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
-    color: ghostwhite;
-    background-color: black;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;
+	color: ghostwhite;
+	background-color: black;
 }
 
 /* Headings and logo */
 
 h1 {
-    font-family: 'Forum', cursive;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    color: ghostwhite;
-    font-size: 80px;
+	font-family: 'Forum', cursive;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: ghostwhite;
+	font-size: 80px;
 }
 
 h2 {
-    text-align: center;
-    font-size: 260%;
-    color: ghostwhite;
-    padding: 100px;
-    margin-top: 0;
-    font-family: 'Forum', cursive;
-    text-transform: uppercase;
+	text-align: center;
+	font-size: 260%;
+	color: ghostwhite;
+	padding: 100px;
+	margin-top: 0;
+	font-family: 'Forum', cursive;
+	text-transform: uppercase;
 
 }
 
 #logo {
-    font-size: 200%;
-    margin-left: 40px;
-    margin-top: 40px;
+	font-size: 200%;
+	margin-left: 40px;
+	margin-top: 40px;
 }
 
 
 li {
-    float: right;
-    list-style: none;
+	float: right;
+	list-style: none;
 }
 
 /*Hero image */
 
 #main-image-section {
-    margin-bottom: 0;
-    background-color: ghostwhite;
+	margin-bottom: 0;
+	background-color: ghostwhite;
 }
 
 #main-image {
-    width: 100%;
-    height: auto;
-    margin-bottom: 0;
+	width: 100%;
+	height: auto;
+	margin-bottom: 0;
 
 }
 
 h2>i {
-    color: darkgrey;
+	color: darkgrey;
 }
 
 /* Why train with us */
 
 .why-train-p {
-    text-align: center;
+	text-align: center;
 }
 
 
 .hr-75 {
-    display: block;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
-    width: 75%;
+	display: block;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 1px;
+	width: 75%;
 }
 
 .hr-75-white {
-    display: block;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
-    width: 75%;
-    color: ghostwhite;
+	display: block;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 1px;
+	width: 75%;
+	color: ghostwhite;
 }
 
 /* Make hr on black background 100% for larger screens */
 
 @media only screen and (min-width: 769px) {
-    .hr-75-white {
-        width: 100%;
-    }
+	.hr-75-white {
+		width: 100%;
+	}
 }
 
 p {
-    font-size: 25px;
-    padding: 20px;
-    margin: 12px;
-    margin-bottom: 0;
+	font-size: 25px;
+	padding: 20px;
+	margin: 12px;
+	margin-bottom: 0;
 
 }
 
 
 hr {
-    border-top: 1px solid #3a3a3a;
-    width: 100%;
-    margin: 5px 0;
+	border-top: 1px solid #3a3a3a;
+	width: 100%;
+	margin: 5px 0;
 }
 
 .left-about-headin>h2 {
-    font-family: 'Forum', cursive;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-size: 200%;
-    color: #252525;
-    text-align: center;
-    padding: 20px;
-    margin: 12px;
+	font-family: 'Forum', cursive;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 200%;
+	color: #252525;
+	text-align: center;
+	padding: 20px;
+	margin: 12px;
 }
 
 .left-about-heading>h2 {
-    font-family: 'Forum', cursive;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-size: 200%;
-    color: #252525;
-    text-align: center;
-    padding: 20px;
-    margin: 12px;
+	font-family: 'Forum', cursive;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 200%;
+	color: #252525;
+	text-align: center;
+	padding: 20px;
+	margin: 12px;
 }
 
 .right-about-heading h2 {
-    font-family: 'Forum', cursive;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-size: 200%;
-    color: #252525;
-    text-align: center;
-    padding: 20px;
-    margin: 12px;
+	font-family: 'Forum', cursive;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 200%;
+	color: #252525;
+	text-align: center;
+	padding: 20px;
+	margin: 12px;
 }
 
 #why-train {
-    text-align: center;
-    font-size: 260%;
-    color: #252525;
-    padding: 100px;
-    margin-top: 0;
-    font-family: 'Forum', cursive;
+	text-align: center;
+	font-size: 260%;
+	color: #252525;
+	padding: 100px;
+	margin-top: 0;
+	font-family: 'Forum', cursive;
 }
 
 
 /* images */
 
 #no-gi-image {
-    width: 40%;
-    float: left;
+	width: 40%;
+	float: left;
 }
 
 #gi-image {
-    width: 40%;
-    float: right;
+	width: 40%;
+	float: right;
 }
 
 #worst-case-image {
-    width: 40%;
-    float: right;
+	width: 40%;
+	float: right;
 }
 
 /* description */
 
 #about-us {
-    background-color: ghostwhite;
-    color: #252525;
+	background-color: ghostwhite;
+	color: #252525;
 }
 
 .section {
-    width: 100%;
-    background-color: black;
-    color: ghostwhite;
+	width: 100%;
+	background-color: black;
+	color: ghostwhite;
 }
 
 /* Makes p and image appear side by side */
 
 @media only screen and (min-width: 769px) {
-#history {
-   display: flex;
-}
+	#history {
+		display: flex;
+	}
 }
 
 .h2-center {
-    text-align: center;
+	text-align: center;
 }
 
 #no-gi {
-   display: flex;
-   flex-direction: row-reverse;
+	display: flex;
+	flex-direction: row-reverse;
 }
 
 #worst-case {
-    display: flex;
+	display: flex;
 }
-
-
-
 
 
 /* social media */
 
 #social-media-links {
-    display: flex;
-    flex-grow: 1;
-    flex-basis: 0;
-    justify-content: center;
+	display: flex;
+	flex-grow: 1;
+	flex-basis: 0;
+	justify-content: center;
 
 }
 
 #social-media-links>li {
-    background-color: #252525;
-    border-radius: 40%;
-    color: ghostwhite;
-    margin: 5%;
-    padding: 1.25rem;
-    display: flex;
+	background-color: #252525;
+	border-radius: 40%;
+	color: ghostwhite;
+	margin: 5%;
+	padding: 1.25rem;
+	display: flex;
 }
 
 #social-media-links>li:hover {
-    background-color: deepskyblue;
-    color: #252525;
+	background-color: deepskyblue;
+	color: #252525;
 }
 
 footer {
-    background-color: ghostwhite;
-    display: flex;
+	background-color: ghostwhite;
+	display: flex;
 }
 
 #map {
-    height: auto;
-    width: 100%;
-    margin-bottom: 0;
-    height: 400px;
+	height: auto;
+	width: 100%;
+	margin-bottom: 0;
+	height: 400px;
 }
 
 /* Make why train p text smaller */
 
 @media only screen and (max-width: 768px) {
-    .why-train-p {
-        text-align: center;
-    }
+	.why-train-p {
+		text-align: center;
+	}
 }
 
 /* Make social media icons smaller */
 
-    @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 
-    #social-media-links {
-        display: flex;
-        flex-grow: 1;
-        flex-basis: 0;
-        justify-content: center;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
+	#social-media-links {
+		display: flex;
+		flex-grow: 1;
+		flex-basis: 0;
+		justify-content: center;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
 
-    #social-media-links>li {
-        background-color: #252525;
-        border-radius: 40%;
-        color: ghostwhite;
-        margin: 5%;
-        padding: 1.25rem;
-    }
+	#social-media-links>li {
+		background-color: #252525;
+		border-radius: 40%;
+		color: ghostwhite;
+		margin: 5%;
+		padding: 1.25rem;
+	}
 
-    footer {
-        background-color: ghostwhite;
-        display: flex;
-    }
+	footer {
+		background-color: ghostwhite;
+		display: flex;
+	}
 
 
 }
 
-/* Responsiveness for homepage images and text */ 
+/* Responsiveness for homepage images and text */
 
 @media only screen and (max-width: 768px) {
 
-    #main-image {
-        width: 100%;
-        height: auto;
-        margin-bottom: 0;
-    }
+	#main-image {
+		width: 100%;
+		height: auto;
+		margin-bottom: 0;
+	}
 
-    #why-train {
-        text-align: center;
-        font-size: 200%;
-        color: #252525;
-        padding: 20px;
-        margin-top: 0;
-        font-family: 'Forum', cursive;
-    }
+	#why-train {
+		text-align: center;
+		font-size: 200%;
+		color: #252525;
+		padding: 20px;
+		margin-top: 0;
+		font-family: 'Forum', cursive;
+	}
 
-    .left-about-heading>h2 {
-        font-family: 'Forum', cursive;
-        text-transform: uppercase;
-        letter-spacing: 4px;
-        font-size: 150%;
-        color: #252525;
-        text-align: center;
-        padding: 5px;
-        margin: 5px;
-    }
+	.left-about-heading>h2 {
+		font-family: 'Forum', cursive;
+		text-transform: uppercase;
+		letter-spacing: 4px;
+		font-size: 150%;
+		color: #252525;
+		text-align: center;
+		padding: 5px;
+		margin: 5px;
+	}
 
-    .right-about-heading>h2 {
-        font-family: 'Forum', cursive;
-        text-transform: uppercase;
-        letter-spacing: 4px;
-        font-size: 150%;
-        color: #252525;
-        text-align: center;
-        padding: 5px;
-        margin: 5px;
-    }
+	.right-about-heading>h2 {
+		font-family: 'Forum', cursive;
+		text-transform: uppercase;
+		letter-spacing: 4px;
+		font-size: 150%;
+		color: #252525;
+		text-align: center;
+		padding: 5px;
+		margin: 5px;
+	}
 
-    h2 {
-        text-align: center;
-        font-size: 200%;
-        color: ghostwhite;
-        padding: 20px;
-        margin-top: 0;
-        font-family: 'Forum', cursive;
-    }
+	h2 {
+		text-align: center;
+		font-size: 200%;
+		color: ghostwhite;
+		padding: 20px;
+		margin-top: 0;
+		font-family: 'Forum', cursive;
+	}
 
-    .hr-75 {
-        display: block;
-        margin-bottom: 0;
-        margin-left: auto;
-        margin-right: auto;
-        border-style: inset;
-        border-width: 1px;
-        width: 75%;
-    }
+	.hr-75 {
+		display: block;
+		margin-bottom: 0;
+		margin-left: auto;
+		margin-right: auto;
+		border-style: inset;
+		border-width: 1px;
+		width: 75%;
+	}
 
-    .hr-75-white {
-        display: block;
-        margin-bottom: 0;
-        margin-left: auto;
-        margin-right: auto;
-        border-style: inset;
-        border-width: 1px;
-        width: 75%;
-        color: ghostwhite;
-    }
+	.hr-75-white {
+		display: block;
+		margin-bottom: 0;
+		margin-left: auto;
+		margin-right: auto;
+		border-style: inset;
+		border-width: 1px;
+		width: 75%;
+		color: ghostwhite;
+	}
 
 
-    #no-gi {
+	#no-gi {
 
-        font-size: 20px;
-        width: 100%;
-        text-align: center;
-        padding: 5px;
-        margin: 5px;
-        margin-bottom: 0;
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        flex-direction: column;
-    }
+		font-size: 20px;
+		width: 100%;
+		text-align: center;
+		padding: 5px;
+		margin: 5px;
+		margin-bottom: 0;
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		flex-direction: column;
+	}
 
-    #history {
-        display: flex;
-        flex-direction: column;
-    }
+	#history {
+		display: flex;
+		flex-direction: column;
+	}
 
-    p {
-        font-size: 20px;
-        width: 80%;
-        text-align: center;
-        padding: 5px;
-        margin: 5px;
-        margin-bottom: 0;
-        margin-left: auto;
-        margin-right: auto;
-    }
+	p {
+		font-size: 20px;
+		width: 80%;
+		text-align: center;
+		padding: 5px;
+		margin: 5px;
+		margin-bottom: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
-    #worst-case {
-        text-align: center;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
+	#worst-case {
+		text-align: center;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
 
-    #gi-image {
-        height: auto;
-        width: 100%;
-    }
+	#gi-image {
+		height: auto;
+		width: 100%;
+	}
 
-    #no-gi-image {
-        height: auto;
-        width: 100%;
-    }
+	#no-gi-image {
+		height: auto;
+		width: 100%;
+	}
 
-    #worst-case-image {
-        height: auto;
-        width: 100%;
-    }
+	#worst-case-image {
+		height: auto;
+		width: 100%;
+	}
 
-    #worse-case-image {
-        height: auto;
-        width: 100%;
-    }
+	#worse-case-image {
+		height: auto;
+		width: 100%;
+	}
 
-    #map {
-        height: auto;
-        width: 100%;
-        margin-bottom: 0;
-    }
+	#map {
+		height: auto;
+		width: 100%;
+		margin-bottom: 0;
+	}
 }
 
 /* Class schedule */
 
 #schedule-image {
-    width: 50%;
-    
+	width: 50%;
+
 
 }
 
 #mma {
-    width: 50%;
+	width: 50%;
 }
 
 #image-container {
-    display: flex;
+	display: flex;
 }
 
 
 table {
-    width: 100%;
-    border-style: solid;
-    text-align: center;
-    font-family: inherit;
-    border-width: 2px;
-    background-color: darkslategray;
-    margin-top: 5%;
+	width: 100%;
+	border-style: solid;
+	text-align: center;
+	font-family: inherit;
+	border-width: 2px;
+	background-color: darkslategray;
+	margin-top: 5%;
 }
 
 td {
-    border-style: solid;
-    border-width: 2px;
-    border-color: antiquewhite;
+	border-style: solid;
+	border-width: 2px;
+	border-color: antiquewhite;
 }
 
 
 .kids {
-    color: chartreuse;
+	color: chartreuse;
 }
 
 .circuits {
-    color: aqua;
+	color: aqua;
 }
 
 .sparring {
-    color: white;
+	color: white;
 }
 
 .advanced {
-    color: gold;
+	color: gold;
 }
 
 .fundamentals {
-    color: paleturquoise;
+	color: paleturquoise;
 }
 
 #days {
-    color: antiquewhite;
+	color: antiquewhite;
 }
 
 hr {
-    display: block;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
-    margin-top: 0;
+	display: block;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 1px;
+	margin-top: 0;
 }
 
 #table-container {
-    overflow: auto;
+	overflow: auto;
 }
 
 /* Trial class form */
 
 form {
- color: ghostwhite;
-    margin: 20px;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    padding: 15%;
-    text-align: center;
-    justify-content: center;
-    display: grid;
+	color: ghostwhite;
+	margin: 20px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	padding: 15%;
+	text-align: center;
+	justify-content: center;
+	display: grid;
 }
 
 /* Resize form and images for responsiveness */
 
 @media only screen and (max-width: 768px) {
-    form {
-        color: ghostwhite;
-        margin: 20px;
-        margin-top: 60px;
-        margin-bottom: 60px;
-        padding: 15%;
-        text-align: center;
-        justify-content: center;
-        display: grid;
-    }
+	form {
+		color: ghostwhite;
+		margin: 20px;
+		margin-top: 60px;
+		margin-bottom: 60px;
+		padding: 15%;
+		text-align: center;
+		justify-content: center;
+		display: grid;
+	}
 
-   #image-form{ display: flex;
-    flex-direction: column;
-   }
+	#image-form {
+		display: flex;
+		flex-direction: column;
+	}
 
-   #schedule-image {
-    
-    display: none;
+	#schedule-image {
 
+		display: none;
+
+	}
+
+	#mma {
+		width: 100%;
+	}
 }
-
-#mma {
-    width: 100%;
-}
-}
-
 
 
 textarea {
-    width: 100%;
+	width: 100%;
 }
 
 .form-input {
-    padding: 8px;
+	padding: 8px;
 }
 
 
 #form-submit {
 
-    background-color: ghostwhite;
-    padding: 5%;
-    font-size: 20px;
+	background-color: ghostwhite;
+	padding: 5%;
+	font-size: 20px;
 }
 
 #form-submit:hover {
-    background-color: rgba(41, 27, 237);
-    color: ghostwhite;
+	background-color: rgba(41, 27, 237);
+	color: ghostwhite;
 }
 
 #trial-image {
-    width: 100%;
-    height: auto;
-    margin: 5px;
+	width: 100%;
+	height: auto;
+	margin: 5px;
 }
 
 #image-form {
-    display: flex;
+	display: flex;
 }
