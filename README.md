@@ -226,6 +226,10 @@ The site was deployed to GitHub Pages.
 
 - https://ui.dev/amiresponsive- Used for screenshots on readme.
 
+- Slack overflow- Used as reference.
+
+- Code institute Love Running- Used as referance.
+
 
 
 
