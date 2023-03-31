@@ -128,6 +128,18 @@ Booking Form
 - Update: https://formdump.codeinstitute.net/ seems to be down 31/03/2023.
 
 
+
+**Lighthouse**
+
+
+![lighthouse of Homepage](assets/images/lighthouse_1.png)
+
+![lighthouse of Schedule](assets/images/lighthouse_2.png)
+
+![lighthouse of booking](assets/images/lighthouse_3.png)
+
+
+
  
 
 
