@@ -145,7 +145,7 @@ Booking Form
 - All three pages were checked using https://wave.webaim.org/ and passed with no issues.
 
 
-## Libraries and programmes
+## Libraries and Programmes
 
 - Git for version control.
 
