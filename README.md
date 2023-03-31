@@ -200,6 +200,34 @@ The site was deployed to GitHub Pages.
 
 
 
+## Credits
+
+- https://wave.webaim.org/- Used to test for accessibility.
+
+-  https://formdump.codeinstitute.net/- Used as form dump for booking form.
+
+- Google maps- Code used for map on homepage.
+
+- https://validator.w3.org/- Used for testing HTML.
+
+- https://jigsaw.w3.org/css-validator/- Used for testing CSS.
+
+- https://www.freeformatter.com/- Used to indent HTML.
+
+- https://www.freeformatter.com/css-beautifier.html- Used to Beautify CSS.
+
+- Shutterstock- Used for all images on homepage.
+
+- Pixels- Used for images on class schedule page and book trial class page.
+
+- Google fonts- Used for font
+
+- Font awesome- Used for icons
+
+- https://ui.dev/amiresponsive- Used for screenshots on readme.
+
+
+
 
 
 
