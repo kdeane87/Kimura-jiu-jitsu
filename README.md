@@ -33,16 +33,22 @@ This website was created as part of my Full Stack Diploma course. It is a websit
 
 - Gives a brief description of what the club offers.
 
+![Landing page image](assets/images/home_image.png)
+
 
 **Class schedule Page**
 
 - Containes the weekly schedule of classes.
 
+![Schedule image](assets/images/weekly_schedule.png)
+
 **Book Trial Class Page**
 
-- Containes a form to contact the club with questions or too book in for a trial class.
+- Containes a form to contact the club with questions or to book in for a trial class.
 
 - At the moment booking form is conected to code institute form dump (https://formdump.codeinstitute.net/). 
+
+![Trial class image](assets/images/book_trial-class.png)
 
 
 
@@ -188,6 +194,9 @@ The site was deployed to GitHub Pages.
 9) Your site is live at https://kdeane87.github.io/Kimura-jiu-jitsu/
  
 
+## Bugs
+
+- No bugs were detected after deployment
 
 
 
