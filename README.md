@@ -3,6 +3,9 @@
 A Brazilian Jiu Jitsu club based in Cork, Ireland. We offer fitness, self defence and competition level training.
 
 
+![Responsive image](assets/images/responsive_image.jpg)
+
+
 ## Features
 
 **Navigation**
@@ -78,6 +81,57 @@ A Brazilian Jiu Jitsu club based in Cork, Ireland. We offer fitness, self defenc
 6) Click check button and wait for results.
 
 7) Fix any issues in Gitpod workspace and re-test.
+
+
+**Manual Testing**
+
+
+![Nav menu](assets/images/menu_image.png)
+
+
+Navigation
+
+- Check that the menu is linked with the correct page.
+
+- Upon checking everything was as expected.
+
+
+![Map image](assets/images/map.png)
+
+
+Map
+
+- Check that map opens up in a new tab and in the correct location.
+
+- Upon checking everything was as expected.
+
+
+![Social media links](assets/images/social_media_links.png)
+
+
+Social Media Links
+
+- Check that the links open in a new tab and is linked to the correct site.
+
+- Upon checking everything was as expected.
+
+
+![Booking form](assets/images/form_image.png)
+
+
+Booking Form
+
+- Check that form works as expected and links to https://formdump.codeinstitute.net/
+
+- Upon checking everything was as expected.
+
+- Update: https://formdump.codeinstitute.net/ seems to be down 31/03/2023.
+
+
+ 
+
+
+
 
 
 
