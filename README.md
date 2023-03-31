@@ -170,6 +170,20 @@ To push code from githod to github follow these instructions in the terminal;
 
 3) git push
 
+
+## Deployment
+
+The site was deployed to GitHub Pages.
+
+1) Go to Github repo
+2) Click on "Settings"
+3) Click on "Pages"(tab on the left sidebar)
+4) Scroll to "Build and deployment"/"Source" section
+5) Find sub-section "Branch"
+6) From drop-down manu "none"/"select branch" choose source "main" and folder "/root"
+7) Click "Save"
+8) Wait until you can see a link for deployed page within Github Page section, this can take a while and once the page updates you will see a message:
+9) Your site is live at https://kdeane87.github.io/Kimura-jiu-jitsu/
  
 
 
