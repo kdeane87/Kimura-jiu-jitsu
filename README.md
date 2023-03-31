@@ -1,6 +1,7 @@
 # Kimura Jiu Jitsu
 
-A Brazilian Jiu Jitsu club based in Cork, Ireland. We offer fitness, self defence and competition level training.
+This website was created as part of my Full Stack Diploma course. It is a website for a fictional Brazilian  Jiu Jitsu Gym located in Cork, Ireland. The aim of the website is to reach out to new members and to keep current members informed of class timetable and any other club information. 
+
 
 
 ![Responsive image](assets/images/responsive_image.jpg)
@@ -28,7 +29,7 @@ A Brazilian Jiu Jitsu club based in Cork, Ireland. We offer fitness, self defenc
 
 **Home Page**
 
-- Gives a brief description of Jiu Jitsu with the use of text and image.
+- Gives a brief description of Jiu Jitsu with the use of text and imagary.
 
 - Gives a brief description of what the club offers.
 
@@ -159,7 +160,7 @@ Booking Form
 
 ## Version control
 
-**git commands**
+**Git commands**
 
 To push code from githod to github follow these instructions in the terminal;
 
