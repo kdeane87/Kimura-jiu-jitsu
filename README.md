@@ -157,6 +157,8 @@ Booking Form
 
 - Google Devoloper Tools to troubleshoot and test features, solve issues with responsiveness and styling
 
+- W3C Validator- used for checking HTML and CSS for errors
+
 
 ## Version control
 
