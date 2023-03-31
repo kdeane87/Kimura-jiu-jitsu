@@ -139,6 +139,35 @@ Booking Form
 ![lighthouse of booking](assets/images/lighthouse_3.png)
 
 
+**Accessibility**
+
+- All three pages were checked using https://wave.webaim.org/ and passed with no issues.
+
+
+## Libraries and programmes
+
+- Git for version control.
+
+- Github to save and store the files for the website.
+
+- Google Fonts to import the fonts used on the website.
+
+- Font Awesome for the iconography on the website.
+
+- Google Devoloper Tools to troubleshoot and test features, solve issues with responsiveness and styling
+
+
+## Version control
+
+**git commands**
+
+To push code from githod to github follow these instructions in the terminal;
+
+1) git add .
+
+2) Git commit -m "message about whats being added"
+
+3) git push
 
  
 
