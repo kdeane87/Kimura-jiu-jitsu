@@ -7,7 +7,6 @@ A Brazilian Jiu Jitsu club based in Cork, Ireland. We offer fitness, self defenc
 
 **Navigation**
 
-
 - Clicking on Home brings you to Home page.
 
 - Clicking on Class Schedule brings you to Class Schedule page.
@@ -40,3 +39,46 @@ A Brazilian Jiu Jitsu club based in Cork, Ireland. We offer fitness, self defenc
 - Containes a form to contact the club with questions or too book in for a trial class.
 
 - At the moment booking form is conected to code institute form dump (https://formdump.codeinstitute.net/). 
+
+
+
+## Running Tests
+
+**Html Validation**
+
+1) Open up workspace in Gitpod.
+
+2) Open index.html and copy all code.
+
+3) Open https://validator.w3.org/ in seperate tab.
+
+4) Click validate code by direct input.
+
+5) Paste code.
+
+6) Click check button and wait for results.
+
+7) Repeat steps 2-6 for class-schedule.html and trial-class.html.
+
+8) Fix any issues in Gitpod workspace and re-test.
+
+
+**CSS Validation**
+
+1) Open up workspace in Gitpod.
+
+2) Open style.css found in the assets folder and copy all code.
+
+3) Open https://jigsaw.w3.org/css-validator/ in a seperate tab.
+
+4) Click validate code by direct input.
+
+5) Paste code.
+
+6) Click check button and wait for results.
+
+7) Fix any issues in Gitpod workspace and re-test.
+
+
+
+
